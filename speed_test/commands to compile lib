@@ -1,0 +1,2 @@
+gcc -c -Wall -Werror -fPIC libAnalyseCurrentfile.c
+gcc -shared -o libAnalyseCurrentFile.so analyseCurrentFile.o -lnetcdf -lm
